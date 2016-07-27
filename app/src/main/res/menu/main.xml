@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/home_page"
+        android:title="@string/home_page"
+        app:showAsAction="ifRoom" />
+    <item android:id="@+id/training_course"
+        android:title="@string/training_course"
+        app:showAsAction="ifRoom"
+        />
+    <item android:id="@+id/consultants"
+        android:title="@string/consultants"
+        app:showAsAction="ifRoom"
+        />
+</menu>

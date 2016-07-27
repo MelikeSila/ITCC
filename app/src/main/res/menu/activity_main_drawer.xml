@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_news"
+            android:icon="@drawable/ic_menu_info"
+            android:title="@string/news" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/gallery" />
+        <item
+            android:id="@+id/nav_clients"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/clients" />
+        <item
+            android:id="@+id/nav_brochure"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/brochure" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_contact_info"
+                android:icon="@drawable/ic_menu_info"
+                android:title="@string/contact_info" />
+            <item
+                android:id="@+id/nav_send_messega"
+                android:icon="@drawable/ic_menu_email"
+                android:title="@string/send_message" />
+        </menu>
+    </item>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></LinearLayout>
+
+</menu>

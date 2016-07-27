@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1B89AE</color>
+    <color name="colorPrimaryDark">#376A83</color>
+    <color name="colorAccent">#439960</color>
+    <color name="tableText">#FFFFFF</color>
+    <color name="spinnerColor">#EEEEEF</color>
+</resources>

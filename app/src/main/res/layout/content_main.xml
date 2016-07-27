@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/app_bar_main"
+    tools:context="com.itcegy.itccapp.MainActivity">
+
+    <TableLayout
+        style="@style/map_style"
+        android:id="@+id/tableLayout">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView2"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/ic_menu_camera"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="KAKIAKGIFDKAKFG"
+            android:textColor="@color/tableText"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold"/>
+
+        <TableRow>
+
+            <TextView
+                android:gravity="left"
+                android:layout_gravity="center_vertical"
+                android:padding="3dp"
+                android:text="@string/name_course"
+                android:textColor="@color/tableText" />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <TableLayout
+        style="@style/search_style"
+
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/search_in_courses"
+            android:textColor="@color/tableText"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold"/>
+
+        <TableRow>
+
+            <TextView
+                android:gravity="left"
+                android:layout_gravity="center_vertical"
+                android:padding="3dp"
+                android:text="@string/name_course"
+                android:textColor="@color/tableText" />
+
+            <Spinner
+                android:id="@+id/course_spinner"
+                style="@style/spinner_style"
+                />
+
+        </TableRow>
+
+
+        <TableRow>
+
+            <TextView
+                android:gravity="left"
+                android:layout_gravity="center_vertical"
+                android:padding="3dp"
+                android:text="@string/category_text"
+                android:textColor="@color/tableText" />
+
+            <Spinner
+                android:id="@+id/category_spinner"
+                style="@style/spinner_style"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:gravity="left"
+                android:layout_gravity="center_vertical"
+                android:padding="3dp"
+                android:text="@string/location_text"
+                android:textColor="@color/tableText" />
+
+            <Spinner
+                android:id="@+id/location_spinner"
+                style="@style/spinner_style"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:gravity="left"
+                android:layout_gravity="center_vertical"
+                android:padding="3dp"
+                android:text="@string/language_text"
+                android:textColor="@color/tableText" />
+
+            <Spinner
+                android:id="@+id/language_spinner"
+                style="@style/spinner_style"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:gravity="left"
+                android:layout_gravity="center_vertical"
+                android:padding="3dp"
+                android:text="@string/mounth_text"
+                android:textColor="@color/tableText" />
+
+            <Spinner
+                android:id="@+id/mounth_spinner"
+                style="@style/spinner_style"/>
+
+        </TableRow>
+
+        <RelativeLayout>
+
+            <Button
+                android:id="@+id/search_button"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/activity_vertical_margin"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/search_button_shape"
+                android:text="@string/search"
+                android:textColor="@color/tableText"
+                android:clickable="true"/>
+        </RelativeLayout>
+
+
+    </TableLayout>
+</RelativeLayout>
+
